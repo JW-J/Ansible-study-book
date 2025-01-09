@@ -5,3 +5,5 @@
 - 호스트명 설정을 하기 위해 ansible.builtin.hostsname 모듈을 사용한다.
 - /etc/hosts 에 tnode 정보들을 등록하기 위해 필요한 정보들을 변수로 정의한다.
 - 호스트명을 hosts 파일에 추가할 때는 ansible.builtin.lineinfile 모듈을 사용한다.
+
+
