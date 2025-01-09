@@ -1,5 +1,0 @@
----
-- hosts: localhost
-  remote_user: ec2-user
-  roles:
-    - myrole.nfs_client
