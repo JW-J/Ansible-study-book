@@ -1,0 +1,8 @@
+tnodes:
+  - hostname: tnode1-centos
+    fqdn: tnode1-centos.exp.com
+    net_ip: 54.180.112.163
+# AWS에서 테스트를 진행했기 때문에 주석처리
+#  - hostname: tnode2-ubuntu
+#    fqdn: tnode2-ubuntu.exp.com
+#    net_ip: 192.168.22.1

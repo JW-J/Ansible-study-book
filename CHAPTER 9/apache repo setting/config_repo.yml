@@ -1,0 +1,20 @@
+---
+
+- hosts: all
+  vars:
+    repo_url: http://54.180.112.163/repo
+
+  roles:
+    - role: myrole.httpd
+
+  post_tasks:
+    - name: Check http service
+      ansible.builtin.uri:
+        url: "{{ repo_url }}"
+        return_content: true
+      register: check_result
+      failed_when: check_result.status != 200
+
+    - name: Print result
+      ansible.builtin.debug:
+        var: check_result.status

@@ -1,0 +1,5 @@
+[nfs_server]
+tnode-ansible.exp.com ansible_host=43.201.72.100 ansible_user=ec2-user ansible_ssh_private_key_file=/home/ec2-user/.ssh/AWS2025-241111.pem
+
+[nfs_client]
+tnode1-centos.exp.com ansible_host=54.180.112.163 ansible_user=ec2-user ansible_ssh_private_key_file=/home/ec2-user/.ssh/AWS202501-241203.pem

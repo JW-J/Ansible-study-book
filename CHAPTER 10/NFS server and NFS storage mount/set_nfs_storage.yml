@@ -1,0 +1,23 @@
+---
+
+# inventory의 nfs_server 그룹의 호스트들에 대해 실행
+- hosts: nfs_server
+  # 변수 파일을 로드 (share_server, share_path, mount_path 등)
+  vars_files: vars_share_path.yml
+  roles:
+    - role: myrole.nfs_server
+        # nfs_server 역할 실행
+        # - NFS 패키지 설치
+        # - 공유 디렉토리 생성
+        # - /etc/exports 설정
+        # - NFS 서비스 재시작
+
+# 두 번째 play: NFS 클라이언트 설정
+- hosts: nfs_client
+  vars_files: vars_share_path.yml
+  roles:
+    - role: myrole.nfs_client
+      # nfs_client 역할 실행
+      # - NFS 클라이언트 패키지 설치
+      # - 마운트 포인트 디렉토리 생성
+      # - NFS 공유 마운트

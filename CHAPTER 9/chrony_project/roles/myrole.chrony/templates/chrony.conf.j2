@@ -1,0 +1,8 @@
+pool {{ ntp_server }}
+driftfile /var/lib/chrony/drift
+makestep 1.0 3
+rtcsync
+allow 172.31.0.0/16
+local stratum 10
+keyfile /etc/chrony.keys
+logdir /var/log/chrony

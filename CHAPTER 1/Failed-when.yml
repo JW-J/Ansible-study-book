@@ -1,0 +1,18 @@
+---
+- hosts: all
+  tasks:
+    # 1. 첫 번째 태스크
+    - name: Run user add script
+      ansible.builtin.shell: /root/adduser-script.sh     # 스크립트 실행
+      register: command_result                           # 결과 저장
+      failed_when: "'Please input user id and password' in command_result.stdout"
+      # ↑ 이 조건이 참이되면 태스크 실패 처리
+
+    # 2. 두 번째 태스크
+    - name: Print msg   # ← 첫 번째 태스크가 실패하면 이 태스크는 실행되지 않음
+      ansible.builtin.debug:
+        msg: "This task is next task"
+
+#  작업 실패 조건 지정
+#  ㄴ 앤서블에서 셸 스크립트를 실행한 뒤 결과로 실패 또는 에러 메시지를 출력해도 앤서블에서는 작업이 성공했다고 간주합니다.
+#  ㄴ 이런 경우에는 failed_when 키워드를 사용하여 작업이 실패했음을 나타내는 조건을 지정할 수 있습니다.

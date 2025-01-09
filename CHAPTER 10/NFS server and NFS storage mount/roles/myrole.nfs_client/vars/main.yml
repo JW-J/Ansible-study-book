@@ -1,0 +1,8 @@
+---
+# vars file for myrole.nfs_client
+
+yum_nfs_packages:
+  - nfs-utils
+
+apt_nfs_packages:
+  - nfs-common

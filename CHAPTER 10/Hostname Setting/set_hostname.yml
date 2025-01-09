@@ -1,0 +1,49 @@
+---
+
+- hosts: tnode
+  vars_files: vars_hosts_info.yml
+
+  tasks:
+    - name: Set hostname from inventory
+      ansible.builtin.hostname:
+        name: "{{ inventory_hostname }}"
+
+    - name: Add host ip to hosts
+      ansible.builtin.lineinfile:
+        path: /etc/hosts
+        line: "{{ item.net_ip}} {{ item.hostname}} {{ item.fqdn }}"
+        regexp: "^{{ item.net_ip}}"
+      loop: "{{ tnodes }}"
+
+# net_ip, hostsname, fqdn 은 기본적인 /etc/hosts 형식이다. 그리고 . 을 사용할 경우 FQDN이면서 동시에 hostname으로도 동작한다.
+# webserver.example.com
+#    |        |     |
+#    |        |     +-- 최상위 도메인(TLD)
+#    |        +-------- 도메인
+#    +----------------- 호스트명
+
+# 소스 주석 처리 ( 주석처리 후 실행 시 주석을 코드로 인식해 에러가 발생함 )
+#---
+## 이 Playbook은 타겟 노드의 호스트네임 설정과 /etc/hosts 파일 구성을 자동화합니다
+#
+#- hosts: tnode      # 'tnode' 그룹의 호스트들에 대해 실행
+#  vars_files: vars_hosts_info.yml    # 변수 정보가 담긴 외부 YAML 파일 로드
+#
+#  tasks:
+#    - name: Set hostname from inventory
+#      # ansible 인벤토리에 정의된 호스트명으로 시스템의 호스트네임을 설정
+#      ansible.builtin.hostname:
+#        name: {{ inventory_hostname }}    # inventory_hostname은 ansible이 제공하는 특수 변수로 인벤토리에 있는 tnode1-centos.exp.com를 가진다.
+#
+#    - name: Add host ip to hosts
+#      # /etc/hosts 파일에 호스트 정보를 추가/수정
+#      ansible.builtin.lineinfile:
+#        # 대상 파일 경로
+#        path: /etc/hosts
+#        # 추가할 호스트 정보 라인
+#        line: "{{ item.net_ip}} {{ item.hostname}} {{ item.fqdn }}"
+#        # 이 IP로 시작하는 라인이 있으면 교체
+#        regexp: "^{{ item.net_ip}}"
+#      # tnodes 변수의 리스트 항목들에 대해 반복 실행
+#      loop: "{{ tnodes }}"
+#      # tnodes는 vars_hosts_info.yml에 정의되어 있을 것으로 예상됨

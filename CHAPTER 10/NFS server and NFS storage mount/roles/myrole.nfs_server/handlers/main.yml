@@ -1,0 +1,13 @@
+---
+# handlers file for myrole.nfs_server
+
+- name: Restart NFS Service
+  ansible.builtin.service:
+    name: nfs-server
+    state: restarted
+
+# AWS의 Cent OS에서는 firewalld를 사용하지 않기 때문에 주석처리
+#- name: Reload firewalld
+#  ansible.builtin.service:
+#    name: firewalld
+#    state: reloaded

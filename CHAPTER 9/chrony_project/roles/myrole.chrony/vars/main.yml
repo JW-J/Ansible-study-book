@@ -1,0 +1,10 @@
+---
+# vars file for myrole.chrony
+ntp_server: pool kr.pool.ntp.org iburst
+package_name: chrony
+service_name: chronyd
+fedora_os:
+  - CentOS
+  - RedHat
+  - Amazon
+  - fedora

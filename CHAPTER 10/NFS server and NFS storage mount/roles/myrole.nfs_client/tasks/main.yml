@@ -1,0 +1,29 @@
+---
+# tasks file for myrole.nfs_client
+
+- name: Install NFS Packages on Ubuntu
+  ansible.builtin.apt:
+    name: "{{item }}"
+    state: present
+  loop: "{{ apt_nfs_packages }}"
+  when: ansible_facts.distribution == "Ubuntu"
+
+- name: Install NFS Packages on Rhel
+  ansible.builtin.yum:
+    name: "{{ item }}"
+    state: present
+  loop: "{{ yum_nfs_packages }}"
+  when: ansible_facts.distribution == "Amazon"
+
+- name: Create Mount Direcory
+  ansible.builtin.file:
+    path: "{{ mount_path }}"
+    state: directory
+
+- name: Mount NFS
+  ansible.posix.mount:
+    src: "{{ share_server }}:{{ share_path }}"
+    path: "{{ mount_path }}"
+    opts: rw,sync
+    state: mounted
+    fstype: nfs

@@ -1,0 +1,16 @@
+---
+# handlers file for myrole.httpd
+
+- name: Restart httpd
+  ansible.builtin.service:
+    name: httpd
+    state: restarted
+
+#- name: Reload firewalld
+#  ansible.builtin.systemd:
+#    name: firewalld
+#    state: reloaded
+
+# SELinux 가 사용중일 때 사용하지만 사용하지 않고 있기 때문에 주석
+#- name: Reconfigure sefcontext
+#  ansible.builtin.command: chcon -R -h -t httpd_sys_content_t /repo

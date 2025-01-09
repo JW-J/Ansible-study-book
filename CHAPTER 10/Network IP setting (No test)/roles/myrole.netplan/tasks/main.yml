@@ -1,0 +1,15 @@
+---
+# tasks file for myrole.netplan
+# 이 파일은 Ubuntu/Debian 시스템의 Netplan 네트워크 설정을 관리하는 task입니다
+
+- name: Copy netplan file
+  # j2(Jinja2) 템플릿 파일을 시스템의 netplan 설정 디렉토리로 복사하는 작업
+  ansible.builtin.template:
+    src: 01-netplan-ansible.yaml.j2           # 소스 템플릿 파일 위치 (roles/templates 디렉토리 내)
+    dest: /etc/netplan/01-netplan-ansible.yaml    # 대상 시스템의 저장 경로
+  # 네트워크 인터페이스가 실제 시스템에 존재하는 경우에만 실행
+  when: net_info[0].con_name in ansible_facts.interface
+
+  # 설정 파일이 변경되었을 경우 'Netplan apply' 핸들러를 호출
+  # 핸들러는 'netplan apply' 명령을 실행하여 새로운 네트워크 설정을 적용
+  notify: Netplan apply

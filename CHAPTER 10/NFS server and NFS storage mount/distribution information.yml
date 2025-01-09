@@ -1,0 +1,14 @@
+---
+# OS 정보를 확인하기 위한 테스트 플레이북
+- name: Test ansible facts
+  hosts: nfs_client  # 대상 호스트 그룹
+  tasks:
+    - name: Gather facts
+      setup:
+
+    - name: Debug OS distribution information
+      debug:
+        msg:
+          - "Distribution: {{ ansible_facts['distribution'] }}"
+          - "OS Family: {{ ansible_facts['os_family'] }}"
+          - "Distribution Version: {{ ansible_facts['distribution_version'] }}"

@@ -1,0 +1,6 @@
+---
+
+- name: Intstall chrony using yum
+  ansible.builtin.yum:
+    name: "{{ package_name }}"
+    state: latest
