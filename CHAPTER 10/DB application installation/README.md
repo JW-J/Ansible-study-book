@@ -19,5 +19,15 @@ install_mysql.yml
  자신이 사용하고 있는 컬렉션 명(geerlingguy.mysql)
 ````
 
+## 갤럭시북 추가 설명
+galaxy.ansible.com 에 들어가게 되면, Search를 통해 찾으면 나오지 않는다.
+역할에 들어가서 찾아야 한다.
 
+## 실습 수정 내용
+
+```yaml 
+# task/main.yml
+
+
+```
 
