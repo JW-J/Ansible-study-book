@@ -28,6 +28,5 @@ galaxy.ansible.com 에 들어가게 되면, Search를 통해 찾으면 나오지
 ```yaml 
 # task/main.yml
 
-
 ```
 
