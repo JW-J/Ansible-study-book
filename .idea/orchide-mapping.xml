@@ -87,7 +87,7 @@
     </option>
     <option name="orchideInventoryLocations">
       <list>
-        <option value="$PROJECT_DIR$/CHAPTER 10/DB application installation/*" />
+        <option value="$PROJECT_DIR$/CHAPTER 11/set_chage_password" />
       </list>
     </option>
     <option name="orchideRoleLocations">
@@ -247,6 +247,5 @@
         </OrchideAnsibleMappingStringPattern>
       </list>
     </option>
-    <option name="useAnsibleMappingWithSimplePattern" value="false" />
   </component>
 </project>

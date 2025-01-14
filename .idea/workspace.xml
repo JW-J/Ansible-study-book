@@ -4,27 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f9751a8-1ceb-4f64-9c70-2a4da5088b03" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/CHAPTER 10/DB application installation/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CHAPTER 10/DB application installation/.idea/DB application installation.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CHAPTER 10/DB application installation/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CHAPTER 10/DB application installation/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CHAPTER 10/DB application installation/.idea/orchide-mapping.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CHAPTER 10/DB application installation/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+    <list default="true" id="5f9751a8-1ceb-4f64-9c70-2a4da5088b03" name="변경" comment="24.01.14 release">
+      <change afterPath="$PROJECT_DIR$/CHAPTER 11/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/orchide-mapping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/orchide-mapping.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CHAPTER 10/DB application installation/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 10/DB application installation/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CHAPTER 10/DB application installation/install_mysql.yml" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 10/DB application installation/install_mysql.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CHAPTER 10/DB application installation/roles/geerlingguy.mysql/defaults/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 10/DB application installation/roles/geerlingguy.mysql/defaults/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CHAPTER 10/DB application installation/roles/geerlingguy.mysql/tasks/variables.yml" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 10/DB application installation/roles/geerlingguy.mysql/tasks/variables.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Empty-yml" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,31 +36,39 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;OrchideMappingSettingsSimpleMapping.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.highlight.mappings&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.highlight.symlinks&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
-    &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/jungj/OneDrive/정주원/Study/AWS/Ansible-study-book/CHAPTER 10/DB application installation&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;orchideAnsibleMapping&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "OrchideMappingSettingsSimpleMapping.checked": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
+    "WebServerToolWindowPanel.toolwindow.show.date": "false",
+    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
+    "WebServerToolWindowPanel.toolwindow.show.size": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/jungj/OneDrive/정주원/Study/AWS/Ansible-study-book/CHAPTER 11/set_chage_password",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "orchideAnsibleMapping",
+    "two.files.diff.last.used.folder": "C:/Users/jungj/OneDrive/정주원/Study/AWS/Ansible-study-book/CHAPTER 11/set_chage_password",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;stardust.markdown.MarkdownSplitEditorSuppressor:keyList&quot;: []
+  "keyToStringList": {
+    "stardust.markdown.MarkdownSplitEditorSuppressor:keyList": []
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jungj\OneDrive\정주원\Study\AWS\Ansible-study-book\CHAPTER 11\set_chage_password\vars" />
+      <recent name="C:\Users\jungj\OneDrive\정주원\Study\AWS\Ansible-study-book\CHAPTER 11\set_chage_password" />
+      <recent name="C:\Users\jungj\OneDrive\정주원\Study\AWS\Ansible-study-book\CHAPTER 11\set_chage_password\tasks" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -82,11 +87,25 @@
       <updated>1736495106544</updated>
       <workItem from="1736495108485" duration="106000" />
       <workItem from="1736495223128" duration="894000" />
+      <workItem from="1736830137397" duration="3811000" />
     </task>
+    <task id="LOCAL-00001" summary="24.01.14 release">
+      <option name="closed" value="true" />
+      <created>1736830335270</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1736830335270</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="24.01.14 release" />
+    <option name="LAST_COMMIT_MESSAGE" value="24.01.14 release" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
