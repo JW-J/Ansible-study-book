@@ -3,5 +3,3 @@
 - hosts: db
   roles:
     - role: geerlingguy.mysql
-
-      

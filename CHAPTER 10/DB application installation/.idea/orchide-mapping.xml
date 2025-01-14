@@ -87,16 +87,18 @@
     </option>
     <option name="orchideInventoryLocations">
       <list>
-        <option value="$PROJECT_DIR$/CHAPTER 10/DB application installation/*" />
+        <option value="C:\Users\jungj\OneDrive\정주원\Study\AWS\Ansible-study-book" />
+      </list>
+    </option>
+    <option name="orchideLocationsChanged" value="true" />
+    <option name="orchidePlaybookLocations">
+      <list>
+        <option value="$PROJECT_DIR$" />
       </list>
     </option>
     <option name="orchideRoleLocations">
       <list>
-        <option value="$PROJECT_DIR$/CHAPTER 9/chrony_project/roles" />
-        <option value="$PROJECT_DIR$/CHAPTER 9/apache repo setting/roles" />
-        <option value="$PROJECT_DIR$/CHAPTER 10/DB application installation/roles" />
-        <option value="$PROJECT_DIR$/CHAPTER 10/Network IP setting (No test)/roles" />
-        <option value="$PROJECT_DIR$/CHAPTER 10/NFS server and NFS storage mount/roles" />
+        <option value="$PROJECT_DIR$/roles" />
       </list>
     </option>
     <option name="playbookPatternForOtherAnsibleTypes">
@@ -247,6 +249,5 @@
         </OrchideAnsibleMappingStringPattern>
       </list>
     </option>
-    <option name="useAnsibleMappingWithSimplePattern" value="false" />
   </component>
 </project>

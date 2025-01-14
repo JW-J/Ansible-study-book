@@ -2,7 +2,7 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="482f4608-25ce-419f-9ed2-f1a2a66cee73" name="43.201.72.100(ansible)">
+      <webServer id="1d99e7fb-f8a8-4480-b2ce-df02426391b2" name="43.201.72.100">
         <fileTransfer rootFolder="/root" accessType="SFTP" host="43.201.72.100" port="22" sshConfigId="03c1f5f5-725e-4102-bedd-91bc7f90cbdf" sshConfig="ec2-user@43.201.72.100:22 key" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" isUseSudo="true" />

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5f9751a8-1ceb-4f64-9c70-2a4da5088b03" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/CHAPTER 10/DB application installation/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CHAPTER 10/DB application installation/.idea/DB application installation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CHAPTER 10/DB application installation/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CHAPTER 10/DB application installation/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CHAPTER 10/DB application installation/.idea/orchide-mapping.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CHAPTER 10/DB application installation/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/orchide-mapping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/orchide-mapping.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 10/DB application installation/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 10/DB application installation/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 10/DB application installation/install_mysql.yml" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 10/DB application installation/install_mysql.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 10/DB application installation/roles/geerlingguy.mysql/defaults/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 10/DB application installation/roles/geerlingguy.mysql/defaults/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 10/DB application installation/roles/geerlingguy.mysql/tasks/variables.yml" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 10/DB application installation/roles/geerlingguy.mysql/tasks/variables.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2rQdCRPsF4nzsmSNXdKaW5AbNbw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;OrchideMappingSettingsSimpleMapping.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.highlight.mappings&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.highlight.symlinks&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jungj/OneDrive/정주원/Study/AWS/Ansible-study-book/CHAPTER 10/DB application installation&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;orchideAnsibleMapping&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;stardust.markdown.MarkdownSplitEditorSuppressor:keyList&quot;: []
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="5f9751a8-1ceb-4f64-9c70-2a4da5088b03" name="변경" comment="" />
+      <created>1736495106544</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1736495106544</updated>
+      <workItem from="1736495108485" duration="106000" />
+      <workItem from="1736495223128" duration="894000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

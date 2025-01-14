@@ -1,8 +1,9 @@
 # DB application installation (DB 애플리케이션 설치하기)
 
-### 2025.01.10
-AWS에서 리포지토리를 찾지 못해서 설치를 못함.
-
+### 2025.01.10 (Fail)
+AWS에서는 `variables.yml` 에서 `ansible_os_family`를 RedHat-{버전}으로 가져오는데,
+AWS는 RedHat으로 가져온다. 그래서도 문제긴한데, 이름을 변경해줘도 mysql 버전을 못가져온다...
+나중에 원인좀찾아보자....
 
 ## 사전 분석
 - 테스트 환경에서 가장 많이 설치하는 데이터베이스인 MYSQL을 AWS CentOS에 설치한다.

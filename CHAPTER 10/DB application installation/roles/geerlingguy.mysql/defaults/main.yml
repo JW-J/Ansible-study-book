@@ -26,6 +26,7 @@ overwrite_global_mycnf: true
 # Pass in a comma-separated list of repos to use (e.g. "remi,epel"). Used only
 # for RedHat systems (and derivatives).
 mysql_enablerepo: ""
+# mysql_enablerepo: "geerlingguy.repo-epel"
 
 # Define a custom list of packages to install; if none provided, the default
 # package list from vars/[OS-family].yml will be used.
