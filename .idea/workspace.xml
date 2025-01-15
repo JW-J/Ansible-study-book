@@ -1,15 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f9751a8-1ceb-4f64-9c70-2a4da5088b03" name="변경" comment="24.01.14 release">
-      <change afterPath="$PROJECT_DIR$/CHAPTER 11/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/orchide.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CHAPTER 11/11.1_set_chage_password/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CHAPTER 11/11.2_set_passwd_rule/pwquality.conf.j2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CHAPTER 11/11.2_set_passwd_rule/set_password_rule.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CHAPTER 11/11.2_set_passwd_rule/vars_pw_rule.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CHAPTER 11/11.3_set_sticky_writable_files/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CHAPTER 11/11.3_set_sticky_writable_files/ansible.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CHAPTER 11/11.3_set_sticky_writable_files/inventory" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CHAPTER 11/11.3_set_sticky_writable_files/set_sticky_writable_files.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CHAPTER 12/12.1_monitoring_facts/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CHAPTER 12/12.1_monitoring_facts/ansible.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CHAPTER 12/12.1_monitoring_facts/inventory" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CHAPTER 12/12.1_monitoring_facts/monitoring_facts.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CHAPTER 12/12.2_monitoring_system/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CHAPTER 12/12.2_monitoring_system/ansible.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CHAPTER 12/12.2_monitoring_system/inventory" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CHAPTER 12/12.2_monitoring_system/monitoring_system.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CHAPTER 12/12.2_monitoring_system/vars_package.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/orchide-mapping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/orchide-mapping.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CHAPTER 10/DB application installation/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 10/DB application installation/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 10/DB application installation/roles/geerlingguy.mysql/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 10/DB application installation/roles/geerlingguy.mysql/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 11/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 11/set_chage_password/ansible.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 11/11.1_set_chage_password/ansible.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 11/set_chage_password/inventory" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 11/11.1_set_chage_password/inventory" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 11/set_chage_password/set_chage_password.yml" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 11/11.1_set_chage_password/set_chage_password.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 11/set_chage_password/vars_maxdays.yml" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 11/11.1_set_chage_password/vars_maxdays.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 11/패스워드 생성 법칙 적용/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 11/11.2_set_passwd_rule/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 11/패스워드 생성 법칙 적용/ansible.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 11/11.2_set_passwd_rule/ansible.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHAPTER 11/패스워드 생성 법칙 적용/inventory" beforeDir="false" afterPath="$PROJECT_DIR$/CHAPTER 11/11.2_set_passwd_rule/inventory" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +55,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 4
@@ -41,6 +73,7 @@
     "OrchideMappingSettingsSimpleMapping.checked": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
     "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
     "WebServerToolWindowPanel.toolwindow.show.date": "false",
@@ -48,7 +81,7 @@
     "WebServerToolWindowPanel.toolwindow.show.size": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/jungj/OneDrive/정주원/Study/AWS/Ansible-study-book/CHAPTER 11/set_chage_password",
+    "last_opened_file_path": "C:/Users/jungj/OneDrive/정주원/Study/AWS/Ansible-study-book/CHAPTER 12/12.2_monitoring_system",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -63,10 +96,18 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jungj\OneDrive\정주원\Study\AWS\Ansible-study-book\CHAPTER 12\monitoring_system" />
+      <recent name="C:\Users\jungj\OneDrive\정주원\Study\AWS\Ansible-study-book\CHAPTER 12\monitoring_facts" />
+      <recent name="C:\Users\jungj\OneDrive\정주원\Study\AWS\Ansible-study-book\CHAPTER 11\11.3_set_sticky_writable_files" />
+      <recent name="C:\Users\jungj\OneDrive\정주원\Study\AWS\Ansible-study-book\CHAPTER 11\패스워드 생성 법칙 적용" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jungj\OneDrive\정주원\Study\AWS\Ansible-study-book\CHAPTER 12\monitoring_system\roles\vars" />
+      <recent name="C:\Users\jungj\OneDrive\정주원\Study\AWS\Ansible-study-book\CHAPTER 12\monitoring_system\roles\tasks" />
+      <recent name="C:\Users\jungj\OneDrive\정주원\Study\AWS\Ansible-study-book\CHAPTER 12\monitoring_system\vars" />
       <recent name="C:\Users\jungj\OneDrive\정주원\Study\AWS\Ansible-study-book\CHAPTER 11\set_chage_password\vars" />
       <recent name="C:\Users\jungj\OneDrive\정주원\Study\AWS\Ansible-study-book\CHAPTER 11\set_chage_password" />
-      <recent name="C:\Users\jungj\OneDrive\정주원\Study\AWS\Ansible-study-book\CHAPTER 11\set_chage_password\tasks" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -87,7 +128,10 @@
       <updated>1736495106544</updated>
       <workItem from="1736495108485" duration="106000" />
       <workItem from="1736495223128" duration="894000" />
-      <workItem from="1736830137397" duration="3811000" />
+      <workItem from="1736830137397" duration="9927000" />
+      <workItem from="1736916023359" duration="8380000" />
+      <workItem from="1736924540731" duration="350000" />
+      <workItem from="1736924914066" duration="2970000" />
     </task>
     <task id="LOCAL-00001" summary="24.01.14 release">
       <option name="closed" value="true" />
@@ -97,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736830335270</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="24.01.14 release">
+      <option name="closed" value="true" />
+      <created>1736834448048</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1736834448048</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

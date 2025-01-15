@@ -85,11 +85,6 @@
         </OrchideAnsibleMappingStringPattern>
       </list>
     </option>
-    <option name="orchideInventoryLocations">
-      <list>
-        <option value="$PROJECT_DIR$/CHAPTER 11/set_chage_password" />
-      </list>
-    </option>
     <option name="orchideRoleLocations">
       <list>
         <option value="$PROJECT_DIR$/CHAPTER 9/chrony_project/roles" />

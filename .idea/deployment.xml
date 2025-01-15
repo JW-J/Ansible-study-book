@@ -6,7 +6,8 @@
         <serverdata>
           <mappings>
             <mapping deploy="/ansible-project/chapter_10.4" local="$PROJECT_DIR$/CHAPTER 10/DB application installation" web="/" />
-            <mapping deploy="/ansible-project/chapter_11.1" local="$PROJECT_DIR$/CHAPTER 11/set_chage_password" web="/" />
+            <mapping deploy="/ansible-project/chapter_11.1" local="$PROJECT_DIR$/CHAPTER 11" web="/" />
+            <mapping deploy="/ansible-project/chapter_12.1" local="$PROJECT_DIR$/CHAPTER 12" web="/" />
           </mappings>
         </serverdata>
       </paths>

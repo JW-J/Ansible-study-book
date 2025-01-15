@@ -1,0 +1,9 @@
+---
+
+minlen: 8
+dcredit: -1
+ucredit: -1
+lcredit: -1
+ocredit: -1
+# root사용자도 정책을 적용할것인지 확인
+enforce_for_root: false

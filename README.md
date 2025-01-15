@@ -10,3 +10,9 @@
 - Network IP setting (No test): 네트워크 IP 설정하기
   - AWS에서 테스트를 진행하다보니 환경 문제로 인해 테스트는 불가
 - NFS server and FNS storage mount: NFS서버 설치 및 NFS 스토리지 마운트하기
+
+# CHAPTER 11
+- set_chage_password: 패스워드 변경 주기 설정
+- set_passwd_rule: 패스워드 생성 법칙 적용하기
+- set_sticy_writable_file: 디렉터리 및 파일 접근 권한 변경하기
+- make_certification: 사설 인증서 생성하기 ( 사용할 일이 없을 것으로 보여져 진행 하지 않음 )
