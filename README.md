@@ -16,3 +16,8 @@
 - set_passwd_rule: 패스워드 생성 법칙 적용하기
 - set_sticy_writable_file: 디렉터리 및 파일 접근 권한 변경하기
 - make_certification: 사설 인증서 생성하기 ( 사용할 일이 없을 것으로 보여져 진행 하지 않음 )
+
+# CHAPTER 12
+- monitorling_facts: 팩트를 이용한 시스템 모니터링
+- monitorling_system: CPU, 메모리, 디스크 사용률 모니터링(파일시스템명 변경)
+- install_elastic: 모니터링 환경 구축
